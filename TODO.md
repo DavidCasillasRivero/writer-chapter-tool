@@ -1,0 +1,3 @@
+- OSX and Windows support
+- Review tests with last refactoring
+- Local configurations

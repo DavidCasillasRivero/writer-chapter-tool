@@ -1,0 +1,27 @@
+{
+  "name": "@david.casillas/writer-chapter-tool",
+  "version": "1.0.0",
+  "description": "Command line utility to manage a writing split in chapter files.",
+  "bin": {
+    "wct": "bin/index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidCasillasRivero/writer-chapter-tool.git"
+  },
+  "author": "David Casillas Rivero <davidquintu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidCasillasRivero/writer-chapter-tool/issues"
+  },
+  "homepage": "https://github.com/DavidCasillasRivero/writer-chapter-tool#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "conf": "^6.2.0"
+  }
+}
