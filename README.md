@@ -147,30 +147,32 @@ In case you need to add images to your document copy the image file in the aprop
 [images/00/my-image.jpg]()
 ```
 
-### Preview the book
+### Generate a PDF
 
-The command `preview` merges the contents of the `src` folder into a single markdown file and copies it to the `build` folder. The `images` folder is copied as is from `src` to `build` so all images keep working with no modification.
+When you need to review your work and generate a PDF version of the work.
 
-The command also opens the result in the application configured to preview the content.
-
+```shell
+$ wct book-compile
+```
+The command merges the contents of the `src` folder into a single markdown file and copies it to the `build` folder. The `images` folder is copied as is from `src` to `build` so all images keep working with no modification. The command also opens the result in the application configured to preview the content.
 
 ## API
 
 This is a full list of all API commands available:
 
-- `mwt chapter-create <chapter_title>`
-- `mwt chapter-move <old_chapter_number> <new_chapter_number>`
-- `mwt chapter-delete <chapter_number>`
-- `mwt chapter-edit <chapter_number>`
-- `mwt chapter-rename <chapter_number> <new_title>`
-- `mwt chapter-list`
-- `mwt book-compile`
-- `mwt config-list`
-- `mwt config-set <property> <value>`
+- `wct chapter-create <chapter_title>`
+- `wct chapter-move <old_chapter_number> <new_chapter_number>`
+- `wct chapter-delete <chapter_number>`
+- `wct chapter-edit <chapter_number>`
+- `wct chapter-rename <chapter_number> <new_title>`
+- `wct chapter-list`
+- `wct book-compile`
+- `wct config-list`
+- `wct config-set <property> <value>`
 
 ### API shortcuts
 
-Commands have a shortcut build from the first letter of every command name part. For example the command `mwt chapter-list` can be written as `wct cl`.
+Commands have a shortcut build from the first letter of every command name part. For example the command `wct chapter-list` can be written as `wct cl`.
 
 Config commands do not have a shortcut.
 
