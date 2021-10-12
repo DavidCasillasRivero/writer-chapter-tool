@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/DavidCasillasRivero/writer-chapter-tool#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^27.2.5"
   },
   "dependencies": {
-    "conf": "^6.2.0"
+    "conf": "^10.0.3"
   }
 }
